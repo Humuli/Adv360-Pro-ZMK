@@ -37,11 +37,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N4       &kp N5                &tog 1                                                                       &mo 3      &kp N6  &kp N7  &kp N8     &kp N9   &kp N0                            &kp MINUS
-&kp LALT   &kp Q   &kp W   &kp E   &hm LG(R) R  &hm LG(T) T           &none                                                                        &none      &kp Y   &kp U   &kp I      &kp O    &kp P                             &kp DEL
-&kp TAB    &kp A   &kp S   &kp D   &kp F        &hm LA(LEFT_SHIFT) G  &none           &kp LGUI   &kp C_PLAY      &kp C_VOL_UP       &kp LCTRL      &none      &kp H   &kp J   &kp K      &kp L    &hm LG(LA(LEFT_SHIFT)) SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z   &kp X   &kp C   &kp V        &kp B                                            &kp LALT        &kp C_VOLUME_DOWN                            &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH                          &kp ESCAPE
-&mo 2      &none   &none   &none   &none                              &kp LEFT_SHIFT  &kp ENTER  &mo 4           &kp ESCAPE         &kp BACKSPACE  &kp SPACE          &none   &none      &none    &none                             &mo 2
+&kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N4       &kp N5                &tog 1                                                                   &mo 3      &kp N6  &kp N7  &kp N8     &kp N9   &kp N0                            &kp MINUS
+&kp LALT   &kp Q   &kp W   &kp E   &hm LG(R) R  &hm LG(T) T           &none                                                                    &none      &kp Y   &kp U   &kp I      &kp O    &kp P                             &kp DEL
+&kp TAB    &kp A   &kp S   &kp D   &kp F        &hm LA(LEFT_SHIFT) G  &none   &kp LGUI   &kp C_PLAY          &kp C_VOL_UP       &kp LCTRL      &none      &kp H   &kp J   &kp K      &kp L    &hm LG(LA(LEFT_SHIFT)) SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z   &kp X   &kp C   &kp V        &kp B                                    &kp LALT            &kp C_VOLUME_DOWN                            &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH                          &kp ESCAPE
+&mo 2      &none   &none   &none   &none                              &mo 4   &kp ENTER  &kp LEFT_SHIFT      &kp ESCAPE         &kp BACKSPACE  &kp SPACE          &none   &none      &none    &none                             &mo 2
             >;
         };
 
@@ -77,11 +77,11 @@
 
         programming_layer {
             bindings = <
-&trans      &trans  &trans           &trans          &trans           &trans      &trans                                           &trans  &kp LC(NUMBER_1)      &kp LC(NUMBER_2)       &kp LC(NUMBER_3)  &kp LC(NUMBER_4)   &kp LC(N5)     &kp C_VOLUME_UP
-&kp K_NEXT  &trans  &kp EXCLAMATION  &kp AT          &kp POUND        &kp DOLLAR  &kp PERCENT                                      &trans  &kp CARET             &kp AMPERSAND          &kp STAR          &none              &none          &kp C_VOL_DN
-&kp K_PREV  &trans  &trans           &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp EQUAL   &trans       &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW        &kp DOWN_ARROW         &kp UP_ARROW      &kp RIGHT          &kp PIPE       &kp GRAVE
-&kp C_PLAY  &trans  &trans           &trans          &trans           &kp PLUS                         &trans      &trans                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
-&trans      &trans  &trans           &trans          &trans                       &trans       &trans  &trans      &trans  &trans  &trans                        &trans                 &trans            &trans             &trans         &trans
+&trans      &trans  &trans           &trans          &trans           &trans      &trans                                           &trans  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)      &kp LC(NUMBER_3)       &kp LC(NUMBER_4)  &kp LC(N5)     &kp C_VOLUME_UP
+&kp K_NEXT  &trans  &kp EXCLAMATION  &kp AT          &kp POUND        &kp DOLLAR  &kp PERCENT                                      &trans  &kp CARET         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none             &none          &kp C_VOL_DN
+&kp K_PREV  &trans  &trans           &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp EQUAL   &trans       &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW    &kp DOWN_ARROW        &kp UP_ARROW           &kp RIGHT         &kp PIPE       &kp GRAVE
+&kp C_PLAY  &trans  &trans           &trans          &trans           &kp PLUS                         &trans      &trans                  &kp MINUS         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none             &kp BACKSLASH  &trans
+&trans      &trans  &trans           &trans          &trans                       &trans       &trans  &trans      &trans  &trans  &trans                    &trans                &trans                 &trans            &trans         &trans
             >;
         };
     };
