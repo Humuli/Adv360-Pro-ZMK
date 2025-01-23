@@ -37,21 +37,21 @@
 
         default_layer {
             bindings = <
-&kp C_NEXT  &hm PLUS NUMBER_1  &hm LEFT_BRACKET NUMBER_2  &hm LEFT_BRACE NUMBER_3  &hm LEFT_PARENTHESIS NUMBER_4  &hm EQUAL NUMBER_5        &tog 1                                                                           &mo 3      &hm MINUS NUMBER_6  &hm RIGHT_PARENTHESIS NUMBER_7  &hm RIGHT_BRACE NUMBER_8  &hm RIGHT_BRACKET NUMBER_9  &hm PIPE N0    &kp C_VOLUME_UP
-&kp C_PREV  &kp Q              &kp W                      &kp E                    &hm LG(R) R                    &hm LG(T) T               &none                                                                            &none      &kp Y               &kp U                           &kp I                     &kp O                       &kp P          &kp C_VOLUME_DOWN
-&kp TAB     &hm LS(LALT) A     &hm LA(LC(LGUI)) S         &hm LS(LGUI) D           &hm LA(LEFT_SHIFT) F           &hm LA(LG(LEFT_SHIFT)) G  &none                 &mo 4           &kp LGUI        &kp LALT    &kp LCTRL      &none      &kp H               &kp J                           &kp K                     &kp L                       &kp SEMICOLON  &kp SQT
-&kp LSHFT   &kp Z              &kp X                      &kp C                    &kp V                          &kp B                                                           &kp LALT        &kp TAB                               &kp N               &kp M                           &kp COMMA                 &kp DOT                     &kp FSLH       &kp LEFT_SHIFT
-&mo 2       &none              &none                      &kp LEFT_ARROW           &kp RIGHT_ARROW                                          &hm LEFT_SHIFT ENTER  &kp LEFT_SHIFT  &kp C_PLAY      &kp ESCAPE  &kp BACKSPACE  &kp SPACE                      &kp UP_ARROW                    &kp DOWN_ARROW            &none                       &none          &mo 2
+&kp C_NEXT  &kp NUMBER_1            &kp NUMBER_2        &kp NUMBER_3    &kp NUMBER_4          &kp N5                    &tog 1                                                                           &mo 3      &kp NUMBER_6  &kp N7        &kp N8          &kp N9   &kp N0         &kp C_VOLUME_UP
+&kp C_PREV  &kp Q                   &kp W               &kp E           &hm LG(R) R           &hm LG(T) T               &none                                                                            &none      &kp Y         &kp U         &kp I           &kp O    &kp P          &kp C_VOLUME_DOWN
+&kp TAB     &hm LS(LEFT_CONTROL) A  &hm LA(LC(LGUI)) S  &hm LS(LGUI) D  &hm LA(LEFT_SHIFT) F  &hm LA(LG(LEFT_SHIFT)) G  &none                 &mo 4           &kp LGUI        &kp LCTRL   &kp LEFT_ALT   &none      &kp H         &kp J         &kp K           &kp L    &kp SEMICOLON  &kp SQT
+&kp LSHFT   &kp Z                   &kp X               &kp C           &kp V                 &kp B                                                           &kp LALT        &kp TAB                               &kp N         &kp M         &kp COMMA       &kp DOT  &kp FSLH       &mo 4
+&mo 2       &none                   &none               &kp LEFT_ARROW  &kp RIGHT_ARROW                                 &hm LEFT_SHIFT ENTER  &kp LEFT_SHIFT  &kp C_PLAY      &kp ESCAPE  &kp BACKSPACE  &kp SPACE                &kp UP_ARROW  &kp DOWN_ARROW  &none    &none          &mo 2
             >;
         };
 
         keypad {
             bindings = <
-&kp C_NEXT  &kp N1  &kp N2  &kp N3          &kp N4                &kp N5                    &to 0                                                                          &mo 3      &kp N6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp C_VOLUME_UP
-&kp C_PREV  &kp Q   &kp W   &kp E           &hm LG(R) R           &hm LG(T) T               &none                                                                          &none      &kp Y   &kp U         &kp I         &kp O         &kp P          &kp C_VOLUME_DOWN
-&kp TAB     &kp A   &kp S   &hm LS(LGUI) D  &hm LA(LEFT_SHIFT) F  &hm LA(LG(LEFT_SHIFT)) G  &none                 &mo 4           &kp LGUI        &kp LALT  &kp LCTRL      &none      &kp H   &kp J         &kp K         &kp L         &kp SEMICOLON  &kp SQT
-&kp LSHFT   &kp Z   &kp X   &kp C           &kp V                 &kp B                                                           &kp LALT        &kp TAB                             &kp N   &kp M         &kp COMMA     &kp PERIOD    &kp SLASH      &kp RSHFT
-&mo 2       &none   &none   &kp LEFT        &kp RIGHT                                       &hm LEFT_SHIFT ENTER  &kp LEFT_SHIFT  &kp C_PLAY      &kp ESC   &kp BACKSPACE  &kp SPACE          &kp UP        &kp DOWN      &none         &none          &mo 2
+&kp C_NEXT  &kp N1           &kp N2              &kp N3          &kp N4                &kp N5                    &to 0                                                                           &mo 3      &kp N6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp C_VOLUME_UP
+&kp C_PREV  &kp Q            &kp W               &kp E           &hm LG(R) R           &hm LG(T) T               &none                                                                           &none      &kp Y   &kp U         &kp I         &kp O         &kp P          &kp C_VOLUME_DOWN
+&kp TAB     &hm LS(LCTRL) A  &hm LA(LC(LGUI)) S  &hm LS(LGUI) D  &hm LA(LEFT_SHIFT) F  &hm LA(LG(LEFT_SHIFT)) G  &none                 &mo 4           &kp LGUI        &kp LCTRL  &kp LALT       &none      &kp H   &kp J         &kp K         &kp L         &kp SEMICOLON  &kp SQT
+&kp LSHFT   &kp Z            &kp X               &kp C           &kp V                 &kp B                                                           &kp LALT        &kp TAB                              &kp N   &kp M         &kp COMMA     &kp PERIOD    &kp SLASH      &mo 4
+&mo 2       &none            &none               &kp LEFT        &kp RIGHT                                       &hm LEFT_SHIFT ENTER  &kp LEFT_SHIFT  &kp C_PLAY      &kp ESC    &kp BACKSPACE  &kp SPACE          &kp UP        &kp DOWN      &none         &none          &mo 2
             >;
         };
 
@@ -77,11 +77,11 @@
 
         programming_layer {
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3    &kp NUMBER_4          &kp NUMBER_5  &trans                                      &trans  &kp NUMBER_6    &kp NUMBER_7           &kp NUMBER_8     &kp NUMBER_9       &kp NUMBER_0   &kp C_VOLUME_UP
-&none   &kp PLUS      &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp EQUAL     &none                                       &trans  &kp MINUS       &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PIPE       &kp C_VOL_DN
-&none   &trans        &trans            &none           &kp UNDER             &none         &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW         &kp UP_ARROW     &kp RIGHT          &kp TILDE      &kp GRAVE
-&none   &trans        &trans            &trans          &trans                &none                         &trans      &trans                  &none           &none                  &none            &none              &kp BACKSLASH  &trans
-&trans  &trans        &trans            &trans          &trans                              &trans  &trans  &trans      &trans  &trans  &trans                  &trans                 &trans           &trans             &trans         &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp NUMBER_4           &kp NUMBER_5    &trans                                      &trans  &kp NUMBER_6    &kp NUMBER_7           &kp NUMBER_8     &kp NUMBER_9       &kp NUMBER_0   &kp C_VOLUME_UP
+&none   &kp PLUS      &kp PIPE      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL       &none                                       &trans  &kp MINUS       &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PIPE       &kp C_VOL_DN
+&none   &trans        &kp PLUS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW         &kp UP_ARROW     &kp RIGHT          &kp TILDE      &kp GRAVE
+&none   &trans        &trans        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE                  &trans      &trans                  &none           &none                  &none            &none              &kp BACKSLASH  &trans
+&trans  &trans        &trans        &trans                &trans                                 &trans  &trans  &trans      &trans  &trans  &trans                  &trans                 &trans           &trans             &trans         &trans
             >;
         };
     };
